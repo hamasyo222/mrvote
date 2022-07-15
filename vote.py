@@ -41,7 +41,7 @@ chrome_sevice = fs.Service(DRIVER_PATH)
 driver = webdriver.Chrome(service=chrome_sevice, options=options)
 driver.implicitly_wait(20)
 
-urls = ["https://liff.line.me/1656040756-GwmBkdPY/vote/mrgakushuin2022/M/3", "https://liff.line.me/1656040756-GwmBkdPY/vote/kokugakuin2022/N/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/rikkyo2022/M/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/keiosfc2022/F/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/keioboy2022/N/2", "https://liff.line.me/1656040756-GwmBkdPY/vote/obirin2022/M/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/keiosfc2022/M/1"]
+urls = ["https://liff.line.me/1656040756-GwmBkdPY/vote/mrgakushuin2022/M/3", "https://liff.line.me/1656040756-GwmBkdPY/vote/kokugakuin2022/N/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/rikkyo2022/M/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/keiosfc2022/F/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/keioboy2022/N/2", "https://liff.line.me/1656040756-GwmBkdPY/vote/obirin2022/M/1", "https://liff.line.me/1656040756-GwmBkdPY/vote/missgakushuin2022/F/3" "https://liff.line.me/1656040756-GwmBkdPY/vote/keiosfc2022/M/1"]
 
 #ライン認証
 def line(driver):
